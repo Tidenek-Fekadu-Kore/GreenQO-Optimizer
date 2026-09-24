@@ -1,0 +1,5 @@
+Model / Metric,Mean,Standard Deviation (±)
+MLP Baseline Execution Time - MAE,5.73,0.25
+MLP Baseline Execution Time - MAPE (%),445.00%,13.16%
+MLP Baseline Energy Consumption - MAE,76.51,0.32
+MLP Baseline Energy Consumption - MAPE (%),377.97%,3.28%

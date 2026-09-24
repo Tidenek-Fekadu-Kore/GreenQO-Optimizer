@@ -1,0 +1,86 @@
+Step 1: Profiling Hardware Wattage and Query Divergence Anomalies...
+---------------------------------------------------------------------------
+
+ TOP 5 HIGHEST POWER-SPIKING QUERIES (Potential Performance vs. Eco Anomalies):
+ -> Query Q3 (1GB) | Time: 1.18s | Energy: 26.48J | Average Draw: 22.44 Watts
+ -> Query Q22 (1GB) | Time: 0.21s | Energy: 4.64J | Average Draw: 22.10 Watts
+ -> Query Q19 (1GB) | Time: 0.13s | Energy: 2.79J | Average Draw: 21.46 Watts
+ -> Query Q4 (1GB) | Time: 0.32s | Energy: 6.68J | Average Draw: 20.88 Watts
+ -> Query Q9 (5GB) | Time: 19.75s | Energy: 396.04J | Average Draw: 20.05 Watts
+ -> Query Q12 (5GB) | Time: 15.75s | Energy: 315.75J | Average Draw: 20.05 Watts
+ -> Query Q10 (1GB) | Time: 0.75s | Energy: 14.81J | Average Draw: 19.75 Watts
+ -> Query Q21 (5GB) | Time: 9.89s | Energy: 190.62J | Average Draw: 19.27 Watts
+ -> Query Q16 (5GB) | Time: 1.50s | Energy: 28.88J | Average Draw: 19.25 Watts
+ -> Query Q10 (5GB) | Time: 6.54s | Energy: 121.16J | Average Draw: 18.53 Watts
+---------------------------------------------------------------------------
+Step 2: Simulating Native PostgreSQL Cost Selection vs. Actual Performance...
+---------------------------------------------------------------------------
+
+ Success! Created baseline profile tracking data file:
+   └─ paper_baseline_postgres_metrics.csv
+
+--- OVERALL WORKLOAD SUMMARY FOR MANUSCRIPT ---
+Total Unique Queries Profiled : 66
+Average Workload Wattage      : 13.86 Watts
+Maximum Peak Wattage Observed : 22.44 Watts (Q3 at 1GB)
+
+ --- AUTOMATED DISPARITY ANALYSIS (Same-Scale Pairs) ---
+ Success! Saved full anomaly comparison profile to:
+   └─ all_detected_energy_disparities.csv
+
+Validated Manuscript Energy Disparity Window: 20.5% to 57.4%
+
+Top Latency-vs-Energy Anomalies across all scales:
+ Scale_GB  Fast_Query_ID  Slow_Query_ID  Time_Saved_Sec  Energy_Spike_Pct
+        5              2              7            2.10        693.619771
+        5              9              7           27.06        539.702794
+        5             11              7           19.60        526.716201
+        5              1              7           26.26        445.372315
+        5             17              7           17.54        420.158294
+        5             12              7           31.06        410.014537
+        5              5              7           32.54        215.538685
+        5             21              7           36.92        207.898562
+        5              4              7           32.69        205.782588
+        5              3              7           38.35        149.265062
+        1             10             17            0.01        119.082840
+        5             10              7           40.27         95.703440
+        5             13              7           39.86         77.192699
+        3             15             11            0.14         57.379135
+        1             13             17            0.01         42.603550
+        1             19             11            0.03         38.118812
+        3             21             10            0.01         28.688525
+        1             22             14            0.08         26.775956
+        1              8             17            0.16         26.627219
+        3             21             11            0.95         26.505513
+        5              9             17            9.52         22.982331
+        1              3              1            0.33         21.691176
+        1              5             20            0.04         21.461187
+        3             21              8            0.08         21.260163
+        1              4             12            0.12         20.795660
+        5             11             17            2.06         20.485669
+        5              9              1            0.80         17.296529
+        1             15             17            0.10         16.272189
+        1             22              6            0.08         15.710723
+        1             21              9            0.10         13.614206
+        3             13             11            0.91         13.613232
+        5             16             14            0.37         13.254902
+        1             10             20            0.39         12.709285
+        5             16              6            0.25         12.680453
+        5              8              7           42.04         12.647391
+        1              4             16            0.18         11.519199
+        3             21             13            0.04         11.347518
+        5             10             13            0.41         10.446673
+        1              6             14            0.00          9.562842
+        1              8             15            0.06          8.905852
+        3             13              8            0.04          8.902439
+        5             15              7           41.79          8.544662
+        3             15             17            0.82          7.068667
+        5              1             17            8.72          4.847374
+        3              8             11            0.87          4.325700
+        5              8             15            0.25          3.779762
+        5              9             11            7.46          2.072165
+        3              9             18            1.20          1.191997
+        3              4             10            0.12          0.776531
+        5             21              4            4.23          0.691987
+        1              3             18            0.78          0.646142
+        5              6             14            0.12          0.509804

@@ -1,0 +1,74 @@
+[
+  {
+    "Plan": {
+      "Node Type": "Aggregate",
+      "Strategy": "Sorted",
+      "Partial Mode": "Finalize",
+      "Parallel Aware": false,
+      "Async Capable": false,
+      "Startup Cost": 1180541.79,
+      "Total Cost": 1180543.74,
+      "Plan Rows": 6,
+      "Plan Width": 236,
+      "Group Key": ["l_returnflag", "l_linestatus"],
+      "Plans": [
+        {
+          "Node Type": "Gather Merge",
+          "Parent Relationship": "Outer",
+          "Parallel Aware": false,
+          "Async Capable": false,
+          "Startup Cost": 1180541.79,
+          "Total Cost": 1180543.19,
+          "Plan Rows": 12,
+          "Plan Width": 236,
+          "Workers Planned": 2,
+          "Plans": [
+            {
+              "Node Type": "Sort",
+              "Parent Relationship": "Outer",
+              "Parallel Aware": false,
+              "Async Capable": false,
+              "Startup Cost": 1179541.76,
+              "Total Cost": 1179541.78,
+              "Plan Rows": 6,
+              "Plan Width": 236,
+              "Sort Key": ["l_returnflag", "l_linestatus"],
+              "Plans": [
+                {
+                  "Node Type": "Aggregate",
+                  "Strategy": "Hashed",
+                  "Partial Mode": "Partial",
+                  "Parent Relationship": "Outer",
+                  "Parallel Aware": false,
+                  "Async Capable": false,
+                  "Startup Cost": 1179541.55,
+                  "Total Cost": 1179541.69,
+                  "Plan Rows": 6,
+                  "Plan Width": 236,
+                  "Group Key": ["l_returnflag", "l_linestatus"],
+                  "Planned Partitions": 0,
+                  "Plans": [
+                    {
+                      "Node Type": "Seq Scan",
+                      "Parent Relationship": "Outer",
+                      "Parallel Aware": true,
+                      "Async Capable": false,
+                      "Relation Name": "lineitem",
+                      "Alias": "lineitem",
+                      "Startup Cost": 0.00,
+                      "Total Cost": 748849.65,
+                      "Plan Rows": 12305483,
+                      "Plan Width": 25,
+                      "Filter": "(l_shipdate <= '1998-09-02 00:00:00'::timestamp without time zone)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+
+]

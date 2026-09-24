@@ -1,0 +1,1060 @@
+==================================================
+  TOTAL TOPOLOGY REPOSITORY FOR ALL 5GB QUERIES 
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 1 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 1 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 1 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 1 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 2 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 2 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 2 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 2 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 3 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 3 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 3 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 3 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 4 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 4 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 4 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 4 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 5 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 5 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 5 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 5 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 6 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 6 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 6 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 6 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 7 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 7 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 7 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 7 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 8 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 8 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 8 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 8 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 9 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 9 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 9 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 9 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 10 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 10 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 10 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 10 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 11 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 11 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 11 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 11 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 12 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 12 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 12 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 12 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 13 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 13 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 13 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 13 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 14 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 14 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 14 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 14 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 15 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 15 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 15 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 15 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 16 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 16 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 16 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 16 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 17 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 17 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 17 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 17 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 18 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 18 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 18 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 18 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 19 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 19 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 19 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 19 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 20 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 20 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 20 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 20 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 21 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 21 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 21 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 21 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 22 | OPTION 0 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 22 | OPTION 1 ===
+Strategy: PERFORMANCE | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 22 | OPTION 0 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.5, 0.0949999988079071, 0.3199999928474426, 3.0]
+Node 1: [0.5, 0.02500000037252903, 0.3199999928474426, 1.0]
+
+==================================================
+
+=== TOPOLOGICAL MAPPING LOG FOR QUERY 22 | OPTION 1 ===
+Strategy: ECO | Scale: 5.0GB
+
+--- EDGE INDEX (Parent-to-Child Topology Matrix) ---
+[[1], [0]]
+
+--- NODE FEATURE MATRIX (x Tensor) ---
+Node 0: [0.014999999664723873, 0.012000000104308128, 0.3199999928474426, 5.0]
+Node 1: [0.014999999664723873, 0.001500000013038516, 0.3199999928474426, 2.0]
+
+==================================================
+

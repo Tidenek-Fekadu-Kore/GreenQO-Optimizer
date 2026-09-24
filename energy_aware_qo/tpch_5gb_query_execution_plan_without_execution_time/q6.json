@@ -1,0 +1,59 @@
+[
+  {
+    "Plan": {
+      "Node Type": "Aggregate",
+      "Strategy": "Plain",
+      "Partial Mode": "Finalize",
+      "Parallel Aware": false,
+      "Async Capable": false,
+      "Startup Cost": 876058.16,
+      "Total Cost": 876058.17,
+      "Plan Rows": 1,
+      "Plan Width": 32,
+      "Plans": [
+        {
+          "Node Type": "Gather",
+          "Parent Relationship": "Outer",
+          "Parallel Aware": false,
+          "Async Capable": false,
+          "Startup Cost": 876057.94,
+          "Total Cost": 876058.15,
+          "Plan Rows": 2,
+          "Plan Width": 32,
+          "Workers Planned": 2,
+          "Single Copy": false,
+          "Plans": [
+            {
+              "Node Type": "Aggregate",
+              "Strategy": "Plain",
+              "Partial Mode": "Partial",
+              "Parent Relationship": "Outer",
+              "Parallel Aware": false,
+              "Async Capable": false,
+              "Startup Cost": 875057.94,
+              "Total Cost": 875057.95,
+              "Plan Rows": 1,
+              "Plan Width": 32,
+              "Plans": [
+                {
+                  "Node Type": "Seq Scan",
+                  "Parent Relationship": "Outer",
+                  "Parallel Aware": true,
+                  "Async Capable": false,
+                  "Relation Name": "lineitem",
+                  "Alias": "lineitem",
+                  "Startup Cost": 0.00,
+                  "Total Cost": 873849.36,
+                  "Plan Rows": 241715,
+                  "Plan Width": 12,
+                  "Filter": "((l_shipdate >= '1994-01-01'::date) AND (l_shipdate < '1995-01-01 00:00:00'::timestamp without time zone) AND (l_discount >= 0.05) AND (l_discount <= 0.07) AND (l_quantity < '24'::numeric))"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+
+]

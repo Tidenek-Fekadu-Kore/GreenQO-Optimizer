@@ -1,0 +1,127 @@
+[
+  {
+    "Plan": {
+      "Node Type": "Aggregate",
+      "Strategy": "Plain",
+      "Partial Mode": "Simple",
+      "Parallel Aware": false,
+      "Async Capable": false,
+      "Startup Cost": 196006.01,
+      "Total Cost": 196006.03,
+      "Plan Rows": 1,
+      "Plan Width": 32,
+      "Plans": [
+        {
+          "Node Type": "Hash Join",
+          "Parent Relationship": "Outer",
+          "Parallel Aware": false,
+          "Async Capable": false,
+          "Join Type": "Inner",
+          "Startup Cost": 6401.18,
+          "Total Cost": 196000.86,
+          "Plan Rows": 2060,
+          "Plan Width": 8,
+          "Inner Unique": true,
+          "Hash Cond": "(lineitem.l_partkey = part.p_partkey)",
+          "Join Filter": "(lineitem.l_quantity < (SubPlan 1))",
+          "Plans": [
+            {
+              "Node Type": "Seq Scan",
+              "Parent Relationship": "Outer",
+              "Parallel Aware": false,
+              "Async Capable": false,
+              "Relation Name": "lineitem",
+              "Alias": "lineitem",
+              "Startup Cost": 0.00,
+              "Total Cost": 172610.25,
+              "Plan Rows": 6001025,
+              "Plan Width": 17
+            },
+            {
+              "Node Type": "Hash",
+              "Parent Relationship": "Inner",
+              "Parallel Aware": false,
+              "Async Capable": false,
+              "Startup Cost": 6398.60,
+              "Total Cost": 6398.60,
+              "Plan Rows": 206,
+              "Plan Width": 4,
+              "Plans": [
+                {
+                  "Node Type": "Gather",
+                  "Parent Relationship": "Outer",
+                  "Parallel Aware": false,
+                  "Async Capable": false,
+                  "Startup Cost": 1000.00,
+                  "Total Cost": 6398.60,
+                  "Plan Rows": 206,
+                  "Plan Width": 4,
+                  "Workers Planned": 2,
+                  "Single Copy": false,
+                  "Plans": [
+                    {
+                      "Node Type": "Seq Scan",
+                      "Parent Relationship": "Outer",
+                      "Parallel Aware": true,
+                      "Async Capable": false,
+                      "Relation Name": "part",
+                      "Alias": "part",
+                      "Startup Cost": 0.00,
+                      "Total Cost": 5378.00,
+                      "Plan Rows": 86,
+                      "Plan Width": 4,
+                      "Filter": "((p_brand = 'Brand#23'::bpchar) AND (p_container = 'MED BOX'::bpchar))"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Node Type": "Aggregate",
+              "Strategy": "Plain",
+              "Partial Mode": "Simple",
+              "Parent Relationship": "SubPlan",
+              "Subplan Name": "SubPlan 1",
+              "Parallel Aware": false,
+              "Async Capable": false,
+              "Startup Cost": 123.65,
+              "Total Cost": 123.66,
+              "Plan Rows": 1,
+              "Plan Width": 32,
+              "Plans": [
+                {
+                  "Node Type": "Bitmap Heap Scan",
+                  "Parent Relationship": "Outer",
+                  "Parallel Aware": false,
+                  "Async Capable": false,
+                  "Relation Name": "lineitem",
+                  "Alias": "lineitem_1",
+                  "Startup Cost": 4.67,
+                  "Total Cost": 123.57,
+                  "Plan Rows": 30,
+                  "Plan Width": 5,
+                  "Recheck Cond": "(l_partkey = part.p_partkey)",
+                  "Plans": [
+                    {
+                      "Node Type": "Bitmap Index Scan",
+                      "Parent Relationship": "Outer",
+                      "Parallel Aware": false,
+                      "Async Capable": false,
+                      "Index Name": "idx_lineitem_partkey",
+                      "Startup Cost": 0.00,
+                      "Total Cost": 4.66,
+                      "Plan Rows": 30,
+                      "Plan Width": 0,
+                      "Index Cond": "(l_partkey = part.p_partkey)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "Plan": {
+      "Node Type": "Aggregate",
+      "Strategy": "Sorted",
+      "Partial Mode": "Finalize",
+      "Parallel Aware": false,
+      "Async Capable": false,
+      "Startup Cost": 1125425.36,
+      "Total Cost": 1126642.76,
+      "Plan Rows": 7,
+      "Plan Width": 27,
+      "Group Key": ["lineitem.l_shipmode"],
+      "Plans": [
+        {
+          "Node Type": "Gather Merge",
+          "Parent Relationship": "Outer",
+          "Parallel Aware": false,
+          "Async Capable": false,
+          "Startup Cost": 1125425.36,
+          "Total Cost": 1126642.59,
+          "Plan Rows": 14,
+          "Plan Width": 27,
+          "Workers Planned": 2,
+          "Plans": [
+            {
+              "Node Type": "Aggregate",
+              "Strategy": "Sorted",
+              "Partial Mode": "Partial",
+              "Parent Relationship": "Outer",
+              "Parallel Aware": false,
+              "Async Capable": false,
+              "Startup Cost": 1124425.34,
+              "Total Cost": 1125640.95,
+              "Plan Rows": 7,
+              "Plan Width": 27,
+              "Group Key": ["lineitem.l_shipmode"],
+              "Plans": [
+                {
+                  "Node Type": "Sort",
+                  "Parent Relationship": "Outer",
+                  "Parallel Aware": false,
+                  "Async Capable": false,
+                  "Startup Cost": 1124425.34,
+                  "Total Cost": 1124577.28,
+                  "Plan Rows": 60777,
+                  "Plan Width": 27,
+                  "Sort Key": ["lineitem.l_shipmode"],
+                  "Plans": [
+                    {
+                      "Node Type": "Hash Join",
+                      "Parent Relationship": "Outer",
+                      "Parallel Aware": true,
+                      "Async Capable": false,
+                      "Join Type": "Inner",
+                      "Startup Cost": 226684.32,
+                      "Total Cost": 1119596.23,
+                      "Plan Rows": 60777,
+                      "Plan Width": 27,
+                      "Inner Unique": true,
+                      "Hash Cond": "(lineitem.l_orderkey = orders.o_orderkey)",
+                      "Plans": [
+                        {
+                          "Node Type": "Seq Scan",
+                          "Parent Relationship": "Outer",
+                          "Parallel Aware": true,
+                          "Async Capable": false,
+                          "Relation Name": "lineitem",
+                          "Alias": "lineitem",
+                          "Startup Cost": 0.00,
+                          "Total Cost": 873849.36,
+                          "Plan Rows": 60777,
+                          "Plan Width": 15,
+                          "Filter": "((l_shipmode = ANY ('{MAIL,SHIP}'::bpchar[])) AND (l_commitdate < l_receiptdate) AND (l_shipdate < l_commitdate) AND (l_receiptdate >= '1994-01-01'::date) AND (l_receiptdate < '1995-01-01 00:00:00'::timestamp without time zone))"
+                        },
+                        {
+                          "Node Type": "Hash",
+                          "Parent Relationship": "Inner",
+                          "Parallel Aware": true,
+                          "Async Capable": false,
+                          "Startup Cost": 169317.92,
+                          "Total Cost": 169317.92,
+                          "Plan Rows": 3124592,
+                          "Plan Width": 20,
+                          "Plans": [
+                            {
+                              "Node Type": "Seq Scan",
+                              "Parent Relationship": "Outer",
+                              "Parallel Aware": true,
+                              "Async Capable": false,
+                              "Relation Name": "orders",
+                              "Alias": "orders",
+                              "Startup Cost": 0.00,
+                              "Total Cost": 169317.92,
+                              "Plan Rows": 3124592,
+                              "Plan Width": 20
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+
+]
